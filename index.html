@@ -1,72 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Notícia</title>
+    <title>Travelgram</title>
     <link rel="stylesheet" href="styles/index.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="container">
-        <nav id="primary" class="grid grid-flow-col">
-            <div>
-                <img src="assets/icons/List.svg" alt="ícone de menu">
-                <strong>Menu</strong>
-            </div>
-
-            <div>
-                <img src="assets/icons/Tech News.svg" alt="TecNews logo">
-            </div>
-
-            <div>
-                <strong>Buscar</strong>
-                <img src="assets/icons/MagnifyingGlass.svg" alt="ícone de lupa para a pesquisa">
-            </div>
+    <div class="bg-surface-color">
+        <nav class="container">
+            <a href="#" id="logo">
+                <img src="assets/Logo.svg" alt="Logomarca">
+            </a>
+            <ul role="list" id="primary-menu">
+                <li>
+                    <a href="#">
+                        <img src="assets/MagnifyingGlass.svg" alt="Search">
+                    </a>
+                </li>
+                <li><a class="desktop-only" href="#">Explorar</a></li>
+                <li><a class="desktop-only" href="#">Minhas viagens</a></li>
+                <li><a href="#"></a>
+                    <img src="assets/Profile pic (2).png" alt="Foto de Isabela Torres">
+                </li>
+            </ul>
         </nav>
-        <nav id="secondary" class="grid grid-flow-col">
-            <a href="a">Inteligência Artificial</a>
-            <a href="a">Blockchain</a>
-            <a href="a">Holograma</a>
-            <a href="a">Internet</a>
-            <a href="a">Vestíveis</a>
-            <a href="a">Realidade Aumentada</a>
-            <a href="a">Realidade  Virtual</a>
-        </nav>
-    </header>
-    <main class=" grid container">
-        <section id="featured" class=" grid grid-flow-col gap-16">
-            <figure class="card">
-                <img src="assets/img/Image 01.png" alt="">
 
-                <figcaption>
-                    <span class="content-tag">robótica</span>
-                    <h2 class="text-2xl">Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</h2>
-                </figcaption>
-            </figure>
-
-            <div class="grid grid-flow-col-2 gap-16">
-                <div>
-                    <img src="assets/img/Image 02.png" alt="">
+        <header>
+            <div class="container">
+                <div id="profile">
+                    <img src="assets/Profile pic (2).png" alt="Foto de Isabela Torres">
+                    <div>
+                        <h1>Isabela Torres</h1>
+                        <p>Amante de viagens, cultura e gastronomia. 🌍✈️<br>
+                            Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes
+                            do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸
+                        </p>
+                    </div>
                 </div>
 
-                <div>
-                    <img src="assets/img/Image 03.png" alt="">
-                </div>
-
-                <div>
-                    <img src="assets/img/Image 04.png" alt="">
-                </div>
-
-                <div>
-                    <img src="assets/img/Image 05.png" alt="">
-                </div>
+                <ul id="info">
+                    <li>
+                        <img src="assets/MapPin.svg" alt="Ícone de Pin">
+                        <span>São Paulo,Brazil</span>
+                    </li>
+                    <li>
+                        <img src="assets/AirplaneTilt.svg" alt="Ícone de avião">
+                        <span>37 países</span>
+                    </li>
+                    <li>
+                        <img src="assets/Image.svg" alt="Ícone de imagem">
+                        <span>240 fotos</span>
+                    </li>
+                </ul>
             </div>
-        </section>
+        </header>
+    </div>
+    <main class="container">
+        <img src="assets/Image 01.png" alt="imagem da visão de uma canoa">
+        <img src="assets/Image 02.png" alt="imagem ampla de Veneza">
+        <img src="assets/Image 03.png" alt="imagem de ponte em Veneza">
+        <img src="assets/Image 04.png" alt="Restaurante as margens de um rio em Veneza">
+        <img src="assets/Image 05.png" alt="imagem da Costa Amalfitana- Itália">
+        <img src="assets/Image 06.png" alt="Porto da Croacia">
+        <img src="assets/Image 07.png" alt="Ponte em Croacia">
+        <img src="assets/Image 08.png" alt="Prefeitura de Napole">
+        <img src="assets/Image 09.png" alt="Imagem de um Beco">
+        <img src="assets/Image 10.png" alt="Tenda Rugantino - Itália">
+        <img src="assets/Image 11.png" alt="Foto de Comida italiana">
+        <img src="assets/Image 12.png" alt="Coliseu">
     </main>
+    <footer class="container">
+        <span>Travelgram &copy; 2024</span>
+        <span>Termos de uso</span>
+        <span>Política de privacidade</span>
+    </footer>
 </body>
+
 </html>
